@@ -29,6 +29,9 @@
 .lime {
  background-color:lime;
 }
+.colorbar {
+ min-height:10px;
+}
 .headerdiv {
  margin:0;
  margin-top:-99px;
