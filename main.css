@@ -18,6 +18,7 @@
 .headerdiv {
  margin:0;
  margin-top:-99px;
+ position:relative;
 }
 .headertab {
  position:absolute;
