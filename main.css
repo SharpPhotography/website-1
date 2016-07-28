@@ -7,6 +7,27 @@
 .red {
  background-color:red;
 }
+.black {
+ background-color:black;
+}
+.gray {
+ background-color:gray;
+}
+.orange {
+ background-color:orange;
+}
+.blue {
+ background-color:blue;
+}
+.yellow {
+ background-color:yellow;
+}
+.green {
+ background-color:green;
+}
+.lime {
+ background-color:lime;
+}
 .headerdiv {
  margin:0;
  margin-top:-99px;
