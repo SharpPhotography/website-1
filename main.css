@@ -5,6 +5,9 @@
  min-height:250px;
  background-position:center;
 }
+.websitetitle {
+ margin-bottom:-30px;
+}
 .white {
  background-color:white;
 }
