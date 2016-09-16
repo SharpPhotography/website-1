@@ -49,6 +49,9 @@
 .headertab {
  margin-top:30px;
 }
+.headertab:hover {
+ border-bottom: 5px solid yellow;
+}
 .gallerythumbnail {
  width:100px;
  height:100px;
