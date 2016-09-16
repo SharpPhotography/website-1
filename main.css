@@ -80,6 +80,9 @@
 .FloatLeft {
  float: left;
 }
+.FloatRight {
+ float: right;
+}
 .footer {
  margin-top:25px;
  height:200px;
