@@ -77,6 +77,9 @@
  height:420px;
  margin-bottom:15px;
 }
+.FloatLeft {
+ float: left;
+}
 .footer {
  margin-top:25px;
  height:200px;
