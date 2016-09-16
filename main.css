@@ -4,6 +4,7 @@
  background-color:green;
  min-height:250px;
  background-position:center;
+ border-bottom: 5px solid orange;
 }
 .websitetitle {
  margin-bottom:-30px;
