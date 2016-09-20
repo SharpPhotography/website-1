@@ -66,8 +66,8 @@ body {
  width:100px;
  height:100px;
  float:left;
- /*margin:10px;
- margin-left:-5px;*/
+ /*margin:10px;*/
+ margin-left:-15px;
 }
 .gallerytitle {
  margin-top:50px;
