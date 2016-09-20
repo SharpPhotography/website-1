@@ -89,7 +89,7 @@ body {
 }
 .sectiontitle {
  border-bottom: 5px solid orange;
- box-shadow: 0px 6px 5px black;
+ box-shadow: 0px 6px 5px #404040;
 }
 .AboutUs {
  height:201px;
