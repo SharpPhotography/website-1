@@ -66,11 +66,11 @@ body {
  width:100px;
  height:100px;
  float:left;
- /*margin:10px;*/
+ margin-right:10px;
  margin-left:-15px;
 }
 .gallerytitle {
- margin-top:50px;
+ margin-top:60px;
 }
 .gallery {
  padding-bottom:15px;
