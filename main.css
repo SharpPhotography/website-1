@@ -7,9 +7,13 @@ body {
  min-height:250px;
  background-position: right bottom;
 }
-.WhiteTextBlackShadow {
+.WTBS {
  color:white;
  text-shadow: 1px 1px 1px black;
+}
+.WTBS2 {
+ color:white;
+ text-shadow: 2px 2px 2px black;
 }
 .websitetitle {
  margin-bottom:-30px;
