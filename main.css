@@ -41,7 +41,7 @@ body {
  background-color:purple;
 }
 .gradient {
- background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,100));
+ background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
 }
 .orangeGradient {
  background: linear-gradient(orange, #e69500);
@@ -97,5 +97,5 @@ body {
 .footer {
  /*margin-top:25px;*/
  height:200px;
- background: linear-gradient(rgba(0,0,0,100), rgba(0,0,0,255));
+ background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,1));
 }
