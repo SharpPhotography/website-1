@@ -58,6 +58,7 @@ body {
  text-shadow: 1px 1px 1px black;
 }
 .headertab:hover {
+ background: linear-gradient(rgba(255,165,0,1), rgba(230,149,0,1));
  border-bottom: 5px solid yellow;
  margin-bottom:-5px;
 }
