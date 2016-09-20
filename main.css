@@ -41,7 +41,6 @@ body {
  background-color:purple;
 }
 .gradient {
- margin-top:-25px;
  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.8));
 }
 .orangeGradient {
