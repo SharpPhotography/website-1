@@ -95,7 +95,7 @@ body {
  float: right;
 }
 .footer {
- margin-top:25px;
+ /*margin-top:25px;*/
  height:200px;
  background: linear-gradient(rgba(0,0,0,100),rgba(0,0,0,255));
 }
