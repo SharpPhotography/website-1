@@ -62,7 +62,7 @@ body {
 .headertab {
  margin-top:30px;
 }
-.headertab:hover {
+.orangeGradient:hover {
  background: linear-gradient(rgba(255,165,0,1), rgba(230,149,0,1));
  /*border-bottom: 5px solid yellow;
  margin-bottom:-5px;*/
