@@ -104,8 +104,8 @@ body {
  margin-bottom:15px;
 }
 .subsection {
- margin-top:-5px;
- height:100%;
+ margin-top:-15px;
+ height:80%;
 }
 .FloatLeft {
  float: left;
