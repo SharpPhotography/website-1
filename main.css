@@ -110,6 +110,9 @@ body {
  margin-top:-10px;
  height:85%;
 }
+.subsection p {
+ padding-top:5px;
+}
 .FloatLeft {
  float: left;
 }
