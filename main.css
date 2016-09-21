@@ -103,6 +103,10 @@ body {
  height:420px;
  margin-bottom:15px;
 }
+.subsection {
+ margin-top:-5px;
+ height:100%;
+}
 .FloatLeft {
  float: left;
 }
