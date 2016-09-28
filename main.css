@@ -16,6 +16,9 @@ body {
  text-shadow: 2px 2px 2px black;
  letter-spacing: 2px;
 }
+.italic {
+ font-style: italic;
+}
 .websitetitle {
  margin-bottom:-30px;
 }
