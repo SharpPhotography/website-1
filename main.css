@@ -128,8 +128,8 @@ body {
  margin-top: 3%;
 }
 .subBlock h4 {
- border-bottom: 2px solid gray;
- box-shadow: 0px 2px 2px black;
+ border-bottom: 1px solid gray;
+ box-shadow: 0px 1px 1px black;
 }
 .FloatLeft {
  float: left;
