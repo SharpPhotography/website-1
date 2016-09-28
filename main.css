@@ -116,6 +116,11 @@ body {
 .subsection p {
  padding-top:5px;
 }
+.subBlock {
+ height: 20%;
+ margin-top: 2.5%;
+ margin-bottom: 2.5%;
+}
 .FloatLeft {
  float: left;
 }
