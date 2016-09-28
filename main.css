@@ -126,6 +126,7 @@ body {
 .subBlock {
  height: 30%;
  margin-top: 3%;
+ padding:0px;
 }
 .subBlock h4 {
  border-bottom: 2px solid gray;
