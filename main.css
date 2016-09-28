@@ -16,6 +16,10 @@ body {
  text-shadow: 2px 2px 2px black;
  letter-spacing: 2px;
 }
+.GTBS {
+ color:gray;
+ text-shadow: 1px 1px 1px black;
+}
 .italic {
  font-style: italic;
 }
