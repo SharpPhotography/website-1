@@ -90,7 +90,8 @@ body {
  float:left;
  margin:5px;
  margin-right:10px;
- margin-left:-10px;
+ margin-left:-50px;
+ overflow:hidden;
 }
 .gallerytitle {
  margin-top:40px;
