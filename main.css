@@ -144,6 +144,9 @@ body {
 .FloatRight {
  float: right;
 }
+.fullHeight {
+ height:100%;
+}
 .footer {
  /*margin-top:25px;*/
  height:200px;
