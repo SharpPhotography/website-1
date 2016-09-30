@@ -80,6 +80,7 @@ body {
 .gallerybox {
  margin-top:5px;
  margin-bottom:5px;
+ min-height:100px;
 }
 .gallerybox:hover {
  box-shadow: 5px 5px 5px #404040;
