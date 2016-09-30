@@ -1,4 +1,4 @@
-document.getElementById("header").innerHTML = "<div class="jumbotron jtTest">
+document.getElementById("header").innerHTML = '<div class="jumbotron jtTest">
 </div>
 <div class="container-fluid">
 <div class="row headerdiv sectiontitle">
@@ -13,6 +13,6 @@ document.getElementById("header").innerHTML = "<div class="jumbotron jtTest">
 <div class="col-md-2 col-xs-3 orangeGradient WTBS headertab text-center"><h4>CONTACT</h4></div>
 </div>
 </div>
-</div>";
+</div>';
 
 
