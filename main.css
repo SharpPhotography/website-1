@@ -92,6 +92,7 @@ body {
  margin-right:10px;
  margin-left:-10px;
  overflow:hidden;
+ list-style-type:none;
 }
 .gallerytitle {
  margin-top:40px;
