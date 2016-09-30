@@ -8,7 +8,7 @@ var main = function() {
    var $galleryimage = $gallerythumbnail.find('.galleryimage');
    
    setInterval(function() {
-   $galleryimage.animate({'margin-top': '-='+SlideHeight}, SlideSpeed, function() {
+   $galleryimage.animate({'margin-top': '-='+ $galleryimage.css('margin-top') +SlideHeight}, SlideSpeed, function() {
     CurrentSlide++;
     if (CurrentSlide === $galleryimage.Height) {
        CurrentSlide = 1;
