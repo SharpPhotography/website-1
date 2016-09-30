@@ -96,6 +96,8 @@ body {
 }
 .gallerythumbnail li {
  margin-left:-40px;
+}
+.gallerythumbnail li img {
  height:90px;
 }
 .gallerytitle {
