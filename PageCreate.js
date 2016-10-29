@@ -6,11 +6,11 @@ var titleDiv = document.createElement("div").className = "col-md-3 col-md-offset
 var WebsiteTitle = document.createElement("h1");
 var WebsiteTitleText = document.createTextNode("Auburn Studios");
 var column = document.createElement("div").className = "col-md-8";
-var row = document.createElement("div").className = "row";
+var Row = document.createElement("div").className = "row";
 var headertabs = 4;
 
 function OrganizeElements() {
-  column.appendChild(row);
+  column.appendChild(Row);
   WebsiteTitle.appendChild(WebsiteTitleText);
   titleDiv.appendChild(WebsiteTitle);
   headerDiv.appendChild(column);
@@ -37,7 +37,7 @@ function CreateHeaderTabs() {
    }
    thisH4.appendChild(thisH4Text);
    thisHeaderTab.appendChild(thisH4);
-   row.appendChild(thisHeaderTab);
+   Row.appendChild(thisHeaderTab);
  }
 }
 CreateHeaderTabs();
