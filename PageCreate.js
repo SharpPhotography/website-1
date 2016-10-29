@@ -37,7 +37,7 @@ function CreateHeaderTabs() {
    }
    thisH4.appendChild(thisH4Text);
    thisHeaderTab.appendChild(thisH4);
-   Row.appendChild(thisHeaderTab);
+   //Row.appendChild(thisHeaderTab);
  }
 }
 CreateHeaderTabs();
