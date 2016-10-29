@@ -162,24 +162,3 @@ body {
  height:200px;
  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,1));
 }
-html {
-  font-size: 14px;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
-}
