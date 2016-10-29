@@ -1,8 +1,8 @@
 var header = document.getElementById("header");
-var jumbotron = document.createElement("div").className = "jumbotron","jtTest";
+var jumbotron = document.createElement("div").className = "jumbotron jtTest";
 var containerFluid = document.createElement("div").className = "container-fluid";
-var headerDiv = document.createElement("div").className = "row","headerdiv","sectiontitle";
-var titleDiv = document.createElement("div").className = "col-md-3","col-md-offset-1","col-xs-10","col-xs-offset-1","text-center","text-nowrap","WTBS2","websitetitle";
+var headerDiv = document.createElement("div").className = "row headerdiv sectiontitle";
+var titleDiv = document.createElement("div").className = "col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1 text-center text-nowrap WTBS2 websitetitle";
 var WebsiteTitle = document.createElement("h1");
 var WebsiteTitleText = document.createTextNode("Auburn Studios");
 var column = document.createElement("div").className = "col-md-8";
@@ -23,7 +23,7 @@ function OrganizeElements() {
 function CreateHeaderTabs() {
  for (var i = 0; i < headertabs; i++) {
    var thisHeaderTab = document.createElement("div");
-   thisHeaderTab.className = "col-md-2","col-xs-3","orangeGradient","WTBS","headertab","text-center";
+   thisHeaderTab.className = "col-md-2 col-xs-3 orangeGradient WTBS headertab text-center";
    var thisH4 = document.createElement("h4");
    var thisH4Text = document.createTextNode("");
    if (i === 0) {
