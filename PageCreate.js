@@ -1,12 +1,18 @@
 var header = document.getElementById("header");
-var jumbotron = document.createElement("div").className = "jumbotron jtTest";
-var containerFluid = document.createElement("div").className = "container-fluid";
-var headerDiv = document.createElement("div").className = "row headerdiv sectiontitle";
-var titleDiv = document.createElement("div").className = "col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1 text-center text-nowrap WTBS2 websitetitle";
+var jumbotron = document.createElement("div");
+jumbotron.className = "jumbotron jtTest";
+var containerFluid = document.createElement("div");
+containerFluid.className = "container-fluid";
+var headerDiv = document.createElement("div");
+headerDiv.className = "row headerdiv sectiontitle";
+var titleDiv = document.createElement("div");
+titleDiv.className = "col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1 text-center text-nowrap WTBS2 websitetitle";
 var WebsiteTitle = document.createElement("h1");
 var WebsiteTitleText = document.createTextNode("Auburn Studios");
-var column = document.createElement("div").className = "col-md-8";
-var Row = document.createElement("div").className = "row";
+var column = document.createElement("div");
+column.className = "col-md-8";
+var Row = document.createElement("div");
+Row.className = "row";
 var headertabs = 4;
 
 function OrganizeElements() {
@@ -37,11 +43,11 @@ function CreateHeaderTabs() {
    }
    thisH4.appendChild(thisH4Text);
    thisHeaderTab.appendChild(thisH4);
-   //Row.appendChild(thisHeaderTab);
+   Row.appendChild(thisHeaderTab);
  }
 }
 CreateHeaderTabs();
-//OrganizeElements();
+OrganizeElements();
 
 
 
