@@ -1,3 +1,3 @@
-var $header = $("#header");
+var header = document.getElementbyId("header");
 alert(header);
 
