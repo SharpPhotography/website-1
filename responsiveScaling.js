@@ -12,3 +12,5 @@ function doSizing() {
     $P.css("font-size", 28);
   }
 }
+doSizing();
+$(document).ready(doSizing);
