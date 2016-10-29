@@ -16,14 +16,14 @@ Row.className = "row";
 var headertabs = 4;
 
 function OrganizeElements() {
-  column.appendChild(Row);
-  WebsiteTitle.appendChild(WebsiteTitleText);
-  titleDiv.appendChild(WebsiteTitle);
-  headerDiv.appendChild(column);
-  headerDiv.appendChild(titleDiv);
-  containerFluid.appendChild(headerDiv);
   header.appendChild(jumbotron);
   header.appendChild(containerFluid);
+  containerFluid.appendChild(headerDiv);
+  headerDiv.appendChild(titleDiv);
+  titleDiv.appendChild(WebsiteTitle);
+  WebsiteTitle.appendChild(WebsiteTitleText);
+  headerDiv.appendChild(column);
+  column.appendChild(Row);
 }
 
 function CreateHeaderTabs() {
