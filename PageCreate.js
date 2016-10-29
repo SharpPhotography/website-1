@@ -46,8 +46,9 @@ function CreateHeaderTabs() {
    Row.appendChild(thisHeaderTab);
  }
 }
-CreateHeaderTabs();
 OrganizeElements();
+CreateHeaderTabs();
+
 
 
 
