@@ -12,5 +12,7 @@ function doSizing() {
     $P.css("font-size", 28);
   }
 }
-doSizing();
+if (screen.width === screen.width) {
+  doSizing();
+}
 $(document).ready(doSizing);
