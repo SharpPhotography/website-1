@@ -1,8 +1,8 @@
 body {
- background-image: url("file:///Users/DEREK/Desktop/MadWireProject/images/texture-1516400_1920.JPG");
+ background-image: url("https://derek-sharp.github.io/website/images/texture-1516400_1920.JPG");
 }
 .jtTest {
- background-image: url("file:///Users/DEREK/Desktop/MadWireProject/images/wine-1655325_1920.JPG");
+ background-image: url("https://derek-sharp.github.io/website/images/wine-1655325_1920.JPG");
  min-height:250px;
  background-position: right bottom;
 }
