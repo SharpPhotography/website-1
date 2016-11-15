@@ -1,5 +1,5 @@
 var galleryContainer = document.getElementById("galleryContainer");
-var source = "file:///Users/DEREK/Desktop/MadWireProject/images/galleryPhotos/";
+var source = "https://derek-sharp.github.io/website/images/galleryPhotos/";
 var galleryType = document.getElementById("gallery_Type").innerHTML;
 var numPhotos = document.getElementById("baseImage").src.toString().slice(-6,-4);
 
