@@ -1,9 +1,9 @@
 body {
- background-image: url("file:///Users/DEREK/Desktop/MadWireProject/images/background.JPG");
+ background-image: url("https://derek-sharp.github.io/website/images/background.JPG");
  background-size: 200px 200px;
 }
 .jtTest {
- background-image: url("file:///Users/DEREK/Desktop/MadWireProject/images/header.JPG");
+ background-image: url("https://derek-sharp.github.io/website/images/header.JPG");
  min-height:250px;
  background-position: center top;
  background-size: cover;
