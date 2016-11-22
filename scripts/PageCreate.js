@@ -9,7 +9,7 @@ headerDiv.className = "row headerdiv sectiontitle";
 var titleDiv = document.createElement("div");
 titleDiv.className = "col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 text-center text-nowrap WTBS2 websitetitle";
 var WebsiteTitleLink = document.createElement("a");
-WebsiteTitleLink.href = "file:///Users/DEREK/Desktop/MadWireProject/index.html";
+WebsiteTitleLink.href = "https://derek-sharp.github.io/website/index.html";
 var WebsiteTitle = document.createElement("h1");
 var WebsiteTitleText = document.createTextNode("Sharp Photography");
 var column = document.createElement("div");
@@ -58,7 +58,7 @@ function CreateHeaderTabs() {
    var thisH4Text = document.createTextNode("");
    if (i === 0) {
      thisH4Text.nodeValue = "GALLERIES";
-     thisHeaderLink.href="file:///Users/DEREK/Desktop/MadWireProject/galleries/italian.html";
+     thisHeaderLink.href="https://derek-sharp.github.io/website/galleries/italian.html";
    } else if (i === 1) {
      thisH4Text.nodeValue = "NEWS";
    } else if (i === 2) {
@@ -75,8 +75,8 @@ function CreateHeaderTabs() {
 
 var galleryTabSection = document.getElementById("galleryTabSection");
 var gallerytabNumber = 5;
-var tabSource = "file:///Users/DEREK/Desktop/MadWireProject/galleries/";
-var thumbSource = "file:///Users/DEREK/Desktop/MadWireProject/images/galleryPhotos/";
+var tabSource = "https://derek-sharp.github.io/website/galleries/";
+var thumbSource = "https://derek-sharp.github.io/website/images/galleryPhotos/";
 
 function CreateHomePageTabs() {
   for (var i = 0; i < gallerytabNumber; i++) {
