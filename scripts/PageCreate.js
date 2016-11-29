@@ -7,7 +7,7 @@ containerFluid.className = "container-fluid";
 var headerDiv = document.createElement("div");
 headerDiv.className = "row headerdiv sectiontitle";
 var titleDiv = document.createElement("div");
-titleDiv.className = "col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 text-center text-nowrap WTBS2 websitetitle";
+titleDiv.className = "col-md-4 col-xs-10 text-center text-nowrap WTBS2 websitetitle";
 var WebsiteTitleLink = document.createElement("a");
 WebsiteTitleLink.href = "https://derek-sharp.github.io/website/index.html";
 var WebsiteTitle = document.createElement("h1");
@@ -57,10 +57,13 @@ function CreateHeaderTabs() {
    var thisH4 = document.createElement("h4");
    var thisH4Text = document.createTextNode("");
    if (i === 0) {
+     thisHeaderTab.style.position = "relative";
+     thisHeaderTab.style.zIndex = "1";
      thisH4Text.nodeValue = "GALLERIES";
      thisHeaderLink.href="https://derek-sharp.github.io/website/galleries/italian.html";
    } else if (i === 1) {
      thisH4Text.nodeValue = "NEWS";
+     thisHeaderLink.href="https://derek-sharp.github.io/website/news.html";
    } else if (i === 2) {
      thisH4Text.nodeValue = "ABOUT";
    } else if (i === 3) {
@@ -124,6 +127,8 @@ function CreateHomePageTabs() {
 
   }
 }
+if(galleryTabSection !== null) {
+  CreateHomePageTabs();
+}
 OrganizeElements();
 CreateHeaderTabs();
-CreateHomePageTabs();
