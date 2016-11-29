@@ -66,16 +66,21 @@ function CreateImages() {
     numPhotos = 14;
   }
   for (var i=numPhotos-1;i>=0;i--) {
+    var thisImageLink = document.createElement("a");
+    thisImageLink.className = "imageLink";
     var thisImageContainer = document.createElement("div");
-    thisImageContainer.className = "col-md-2 imageContainer darkGrey";
+    thisImageContainer.className = "col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-2 imageContainer imageContainerFunction darkGrey";
     var thisImage = document.createElement("img");
     thisImage.className = "image";
     if (i>=10) {
       thisImage.src = CreateSourceLink() + i + ".JPG";
+      thisImageLink.href = CreateSourceLink() + i + ".JPG";
     } else {
       thisImage.src = CreateSourceLink() + "0" + i + ".JPG";
+      thisImageLink.href = CreateSourceLink() + "0" + i + ".JPG";
     }
-    galleryContainer.appendChild(thisImageContainer);
+    galleryContainer.appendChild(thisImageLink);
+    thisImageLink.appendChild(thisImageContainer);
     thisImageContainer.appendChild(thisImage);
   }
 }
