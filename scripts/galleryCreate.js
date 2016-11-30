@@ -40,19 +40,19 @@ function CreateGalleryTabs() {
     var thisH4Text = document.createTextNode("");
     if (i === 0) {
       thisH4Text.nodeValue = "Italian";
-      thisTabLink.href = "https://derek-sharp.github.io/galleries/italian.html";
+      thisTabLink.href = "https://derek-sharp.github.io/website/italianCars.html";
     } else if (i === 1) {
       thisH4Text.nodeValue = "German";
-      thisTabLink.href = "https://derek-sharp.github.io/galleries/german.html";
+      thisTabLink.href = "https://derek-sharp.github.io/website/germanCars.html";
     } else if (i === 2) {
       thisH4Text.nodeValue = "American";
-      thisTabLink.href = "https://derek-sharp.github.io/galleries/american.html";
+      thisTabLink.href = "https://derek-sharp.github.io/website/americanCars.html";
     } else if (i === 3) {
       thisH4Text.nodeValue = "Swedish";
-      thisTabLink.href = "https://derek-sharp.github.io/galleries/swedish.html";
+      thisTabLink.href = "https://derek-sharp.github.io/website/swedishCars.html";
     } else if (i === 4) {
       thisH4Text.nodeValue = "British";
-      thisTabLink.href = "https://derek-sharp.github.io/galleries/british.html";
+      thisTabLink.href = "https://derek-sharp.github.io/website/britishCars.html";
     }
     thisTabLink.appendChild(thisTabDiv);
     thisTabH4.appendChild(thisH4Text);
