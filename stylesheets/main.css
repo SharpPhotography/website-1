@@ -1,9 +1,12 @@
+html {
+  background-color:black;
+}
 body {
- background-image: url("https://derek-sharp.github.io/website/images/background.JPG");
+ background-image: url("https://derek-sharp.github.io/images/background.JPG");
  background-size: 200px 200px;
 }
 .jtTest {
- background-image: url("https://derek-sharp.github.io/website/images/header.JPG");
+ background-image: url("https://derek-sharp.github.io/images/header.JPG");
  min-height:250px;
  background-position: center top;
  background-size: cover;
@@ -124,15 +127,15 @@ a, a:hover{
  box-shadow: 0px 5px 5px #404040;
 }
 .AboutUs {
- height:201px;
+ min-height: 201px;
  margin-bottom:15px;
 }
 .Contact {
- height:420px;
+ min-height: 420px;
  margin-bottom:15px;
 }
 .News {
- height:420px;
+ min-height: 420px;
  margin-bottom:15px;
 }
 .subsection {
@@ -252,4 +255,15 @@ button:focus {
 }
 .hide {
   display:none;
+}
+.contents {
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.underline {
+  border-bottom:2px solid white;
+  padding:2px;
+}
+.footerText {
+  margin-top: 50px;
 }
