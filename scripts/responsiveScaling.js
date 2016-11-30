@@ -4,6 +4,9 @@ var $H4 = $("h4");
 var $H5 = $("h5");
 var $P = $("p");
 var $HeaderDiv = $(".headerdiv");
+var $About = $(".AboutUs");
+var $Contact = $(".Contact");
+var $News = $(".News");
 function doSizing() {
   var $ImageContainer = $(".imageContainer");
   var $ImageLink = $(".imageLink");
@@ -13,6 +16,9 @@ function doSizing() {
     $H4.css("font-size", 18);
     $H5.css("font-size", 14);
     $P.css("font-size", 14);
+    $About.css("height",201);
+    $Contact.css("height",420);
+    $News.css("height",420);
     $HeaderDiv.css("margin-top", "-99px");
     $ImageContainer.addClass("imageContainerFunction");
     $ImageContainer.addClass("imageContainerLeftMargin");

@@ -9,7 +9,7 @@ headerDiv.className = "row headerdiv sectiontitle";
 var titleDiv = document.createElement("div");
 titleDiv.className = "col-md-4 col-xs-10 text-center text-nowrap WTBS2 websitetitle";
 var WebsiteTitleLink = document.createElement("a");
-WebsiteTitleLink.href = "https://derek-sharp.github.io/website/index.html";
+WebsiteTitleLink.href = "file:///Users/DEREK/Desktop/MadWireProject/index.html";
 var WebsiteTitle = document.createElement("h1");
 var WebsiteTitleText = document.createTextNode("Sharp Photography");
 var column = document.createElement("div");
@@ -28,6 +28,14 @@ mainRow.className = "row";
 var footerDiv = document.createElement("div");
 footerDiv.className = "container-fluid footer";
 var footer = document.createElement("footer");
+var footerTabSection = document.createElement("div");
+footerTabSection.className = "col-xs-10 col-xs-offset-1";
+var footerNameSection = document.createElement("div");
+footerNameSection.className = "col-xs-9 col-xs-offset-2";
+var footerNameP = document.createElement("p");
+footerNameP.className = "GTBS footerText";
+footerNameP.innerHTML = "This website was created by Derek Sharp for MadWire&#8482 Media."
+//var footerNameText = document.createTextNode("This website was created by Derek Sharp for MadWire&#8482 Media.");
 var contentItems = document.getElementsByClassName("contentItem");
 //Page Elements----------------------------------
 
@@ -46,7 +54,10 @@ function OrganizeElements() {
   body[0].appendChild(footerDiv);
   contentMain.appendChild(mainRow);
   footerDiv.appendChild(footer);
-
+  footer.appendChild(footerTabSection);
+  footer.appendChild(footerNameSection);
+  footerNameSection.appendChild(footerNameP);
+  //footerNameP.appendChild(footerNameText);
 }
 
 function CreateHeaderTabs() {
@@ -60,14 +71,16 @@ function CreateHeaderTabs() {
      thisHeaderTab.style.position = "relative";
      thisHeaderTab.style.zIndex = "1";
      thisH4Text.nodeValue = "GALLERIES";
-     thisHeaderLink.href="https://derek-sharp.github.io/website/galleries/italian.html";
+     thisHeaderLink.href="file:///Users/DEREK/Desktop/MadWireProject/galleries/italian.html";
    } else if (i === 1) {
      thisH4Text.nodeValue = "NEWS";
-     thisHeaderLink.href="https://derek-sharp.github.io/website/news.html";
+     thisHeaderLink.href="file:///Users/DEREK/Desktop/MadWireProject/news.html";
    } else if (i === 2) {
      thisH4Text.nodeValue = "ABOUT";
+     thisHeaderLink.href="file:///Users/DEREK/Desktop/MadWireProject/about.html";
    } else if (i === 3) {
      thisH4Text.nodeValue = "CONTACT";
+     thisHeaderLink.href="file:///Users/DEREK/Desktop/MadWireProject/contact.html";
    }
    thisHeaderLink.appendChild(thisHeaderTab);
    thisHeaderTab.appendChild(thisH4);
@@ -78,8 +91,8 @@ function CreateHeaderTabs() {
 
 var galleryTabSection = document.getElementById("galleryTabSection");
 var gallerytabNumber = 5;
-var tabSource = "https://derek-sharp.github.io/website/galleries/";
-var thumbSource = "https://derek-sharp.github.io/website/images/galleryPhotos/";
+var tabSource = "file:///Users/DEREK/Desktop/MadWireProject/galleries/";
+var thumbSource = "file:///Users/DEREK/Desktop/MadWireProject/images/galleryPhotos/";
 
 function CreateHomePageTabs() {
   for (var i = 0; i < gallerytabNumber; i++) {
@@ -124,11 +137,41 @@ function CreateHomePageTabs() {
     thumbLi.appendChild(thumbImg);
     boxDiv.appendChild(tabH4);
     tabH4.appendChild(tabH4Text);
-
   }
 }
+
+function CreateFooterElements () {
+  var footerLinkNumber = 5;
+  for (var i = 0; i < footerLinkNumber; i++) {
+    var footerLink = document.createElement("a");
+    footerLink.className = "col-xs-1 GTBS";
+    var footerH5 = document.createElement("h5");
+    var footerText = document.createTextNode("");
+    if (i === 0) {
+      footerLink.href = "file:///Users/DEREK/Desktop/MadWireProject/index.html";
+      footerText.nodeValue = "Home";
+    } else if (i === 1) {
+      footerLink.href = "file:///Users/DEREK/Desktop/MadWireProject/galleries/italian.html";
+      footerText.nodeValue = "Galleries";
+    } else if (i === 2) {
+      footerLink.href = "file:///Users/DEREK/Desktop/MadWireProject/news.html";
+      footerText.nodeValue = "News";
+    } else if (i === 3) {
+      footerLink.href = "file:///Users/DEREK/Desktop/MadWireProject/about.html";
+      footerText.nodeValue = "About";
+    } else if (i === 4) {
+      footerLink.href = "file:///Users/DEREK/Desktop/MadWireProject/contact.html";
+      footerText.nodeValue = "Contact";
+    }
+    footerLink.appendChild(footerH5);
+    footerH5.appendChild(footerText);
+    footerTabSection.appendChild(footerLink);
+  }
+}
+
 if(galleryTabSection !== null) {
   CreateHomePageTabs();
 }
 OrganizeElements();
 CreateHeaderTabs();
+CreateFooterElements();

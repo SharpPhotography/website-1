@@ -14,7 +14,7 @@ mainContent.appendChild(gallerySection);
 
 var galleryContainer = document.getElementById("galleryContainer");
 gallerySection.appendChild(galleryContainer);
-var source = "https://derek-sharp.github.io/website/images/galleryPhotos/";
+var source = "https://derek-sharp.github.io/images/galleryPhotos/";
 var galleryType = document.getElementById("gallery_Type").innerHTML;
 var numPhotos = document.getElementById("baseImage").src.toString().slice(-6,-4);
 var numTabs = 5;
@@ -40,19 +40,19 @@ function CreateGalleryTabs() {
     var thisH4Text = document.createTextNode("");
     if (i === 0) {
       thisH4Text.nodeValue = "Italian";
-      thisTabLink.href = "https://derek-sharp.github.io/website/galleries/italian.html";
+      thisTabLink.href = "https://derek-sharp.github.io/galleries/italian.html";
     } else if (i === 1) {
       thisH4Text.nodeValue = "German";
-      thisTabLink.href = "https://derek-sharp.github.io/website/galleries/german.html";
+      thisTabLink.href = "https://derek-sharp.github.io/galleries/german.html";
     } else if (i === 2) {
       thisH4Text.nodeValue = "American";
-      thisTabLink.href = "https://derek-sharp.github.io/website/galleries/american.html";
+      thisTabLink.href = "https://derek-sharp.github.io/galleries/american.html";
     } else if (i === 3) {
       thisH4Text.nodeValue = "Swedish";
-      thisTabLink.href = "https://derek-sharp.github.io/website/galleries/swedish.html";
+      thisTabLink.href = "https://derek-sharp.github.io/galleries/swedish.html";
     } else if (i === 4) {
       thisH4Text.nodeValue = "British";
-      thisTabLink.href = "https://derek-sharp.github.io/website/galleries/british.html";
+      thisTabLink.href = "https://derek-sharp.github.io/galleries/british.html";
     }
     thisTabLink.appendChild(thisTabDiv);
     thisTabH4.appendChild(thisH4Text);
